@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.vyasa.automation.testing.DemoTestNG"/>
+      <class name="com.vyasa.automation.testing.TestNGAnnotations"/>
+      <class name="com.vyasa.automation.testing.Softassert"/>
+      <class name="com.vyasa.automation.testing.TestNGAnnotations1"/>
+      <class name="com.vyasa.automation.testing.OpenBrowers"/>
+      <class name="com.vyasa.automation.testing.DataProviderDemo"/>
+      <class name="com.vyasa.automation.testing.HomePageAutomation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
